@@ -88,6 +88,15 @@ elif a2 < 3:
 else:
     print('фигня какая-то')
 
+# "В случае"
+peremennaya = 7
+match peremennaya:
+    case 1:
+        print("Один")
+    case _:
+        print("Во всех остальных случаях")
+# break; ставить не надо
+
 i = 0
 while i < 10:
     i += 1
