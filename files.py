@@ -13,7 +13,7 @@ for line in data:
     print(line)
 data.close()
 
-# При таком подходе выывать close() не надо
+# При таком подходе вызывать close() не надо
 with open(path, 'w'):
     data = open('file.txt', 'a')
     data.writelines(colors)
